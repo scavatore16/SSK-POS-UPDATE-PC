@@ -2,7 +2,7 @@
   "version": "8.1.2",
   "versionName": "8.1.2",
   "versionCode": 812,
-  "downloadUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-PC/main/SSK-POS-PC-Setup-8.1.2.exe",
+  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-PC/releases/download/v8.1.2/SSK-POS-PC-Setup-8.1.2.exe",
   "changelog": "Version 8.1.2 :\n- SSK-POS-LIVE.json : les ventes du jour (CA, tickets, argent, cash, crédit) sont recalculées depuis la base réelle à chaque écriture.\n- Le fichier LIVE est réécrit immédiatement après chaque vente : le mobile voit CA / Tickets / Argent à jour.\n- Correction mobile Connect / Disconnect intégrée.",
   "notes": "Version 8.1.2 : correction de l'écriture des ventes du jour dans SSK-POS-LIVE.json."
 }
