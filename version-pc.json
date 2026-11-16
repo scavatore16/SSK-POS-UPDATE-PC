@@ -2,7 +2,7 @@
   "version": "8.1.4",
   "versionName": "8.1.4",
   "versionCode": 814,
-  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-PC/releases/download/8.1.4/SSK-POS-PC-Setup-8.1.4.exe",
+  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-PC/releases/download/v8.1.4/SSK-POS-PC-Setup-8.1.4.exe",
   "sha256": "216f861139060bdce5e7d1a846d8bbd982ef6edfb49c23bd9611bdebdf3cc227",
   "size": 82773251,
   "changelog": "- Recevoir Mobile : le PC prend en charge le nouveau fichier SSK-STOCK-MOBILE.json envoyé par le téléphone (section dédiée, réception unitaire « Recevoir » et bouton « Tout recevoir »).\n- Le badge « Recevoir Mobile » compte désormais aussi les mises à jour de stock mobile, avec notification dès leur arrivée.\n- Vente Jour et Tableau de bord : les ventes sont comptées sur la date civile algérienne (UTC+1). Entre 00:00 et 01:00, le total du jour n'est plus celui de la veille (fini le « 0 » au démarrage).\n- SSK-POS-LIVE.json reste écrit uniquement par le PC et contient bien dateDuJour, ventesDuJour, ticketsDuJour, argentDuJour, ventesCashDuJour et ventesCreditDuJour pour le téléphone.\n- Le téléphone n'écrit plus jamais SSK-POS-LIVE.json : plus de conflits Syncthing ni de SSK-POS-LIVE.json.tmp bloqué.",
