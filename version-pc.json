@@ -2,7 +2,7 @@
   "version": "8.1.5",
   "versionName": "8.1.5",
   "versionCode": 815,
-  "downloadUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-PC/main/SSK-POS-PC-Setup-8.1.5.exe",
+  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-PC/releases/download/v8.1.5/SSK-POS-PC-Setup-8.1.5.exe",
   "sha256": "95f732e9c8df70559533deca624a3ad9e2b9b5e0002a05dd76053478f17c16a7",
   "size": 82776219,
   "changelog": "- Marge corrigée : le prix de vente TTC est d'abord converti en HT (PV HT = TTC / (1 + TVA)), puis Marge HT = PV HT - PA HT. Fini le mélange HT/TTC (36% devient 12.50% pour 500 HT / 680 TTC à 19%).\n- Le taux affiché est désormais Marge HT / PV HT, avec la ligne d'information sur PA HT. « Gain / unité » affiche le bénéfice HT et le rappel de la marge TTC.\n- La TVA de la fiche article recalcule immédiatement tous les prix (détail, demi-gros, gros) sans enregistrer. Les lignes d'achat et le tableau de stock utilisent le même calcul.\n- SSK-POS-LIVE.json publie maintenant dashboardHT (CA HT + marge HT : jour, hier, semaine, mois), cashBreakdown (espèces, CIB, virement, crédit, règlements, dépenses) et alerts (4 types : seuil, péremption proche, périmé, dette en retard).\n- Chaque vente récente publiée contient le prix d'achat, la TVA et la marge HT par ligne, pour un historique mobile identique au PC.\n- Recevoir Mobile (achats) refuse tout article dont le prix d'achat ou le prix de vente vaut 0 : plus jamais de coût nul en stock. Les champs stock, seuil d'alerte, date de péremption et code-barres sont acceptés.\n- Le panneau Alertes du PC affiche les 4 mêmes onglets et les mêmes chiffres que l'application mobile.",
