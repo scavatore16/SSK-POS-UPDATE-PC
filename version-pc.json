@@ -3,7 +3,7 @@
   "versionName": "8.1.9",
   "versionCode": 819,
   "releaseDate": "2026-11-23",
-  "downloadUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-PC/main/SSK-POS-PC-Setup-8.1.9.exe",
+  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-PC/releases/download/v8.1.9/SSK-POS-PC-Setup-8.1.9.exe",
   "sha256": "d5af8b4d9b3b62a19b41795874af552e0184ead626eb9e578c385b16baa9575d",
   "size": 82773882,
   "changelog": "- 8.1.9 : installateur visible meme si lance avec /S par l'ancien launcher 8.1.7 (re-lancement sans /S dans .onInit).\n- Permission PWA : ne plus marquer deconnecte quand perm=prompt ; handle conserve + bouton Reessayer l'autorisation (clic).\n- ACK = source de verite : le PC ecrit ACK + supprime le fichier a chaque reception, independamment de l'ancien Stamp.\n- PWA : bouton Appairer reellement deploye (cache bust + SW 8.1.9).\n- Reglages : texte SSK-BACKUP/ remplace par le dossier reel (getBackupDir()).\n- PWA companion : CA/marge, caisse, alertes, stock + envoi achats/credit.",
